@@ -12,7 +12,7 @@ async function main() {
     
     const [receipt, error] = await approve(
       wallet,
-      "0x2b8cbd57eded952c49162bfa23be9acf595f2b0f",
+      "0x2b8cbd57eded952c49162bfa23be9acf595f2b0f", // token to approve
       CHAPEL_SWAP_CONTRACT,
     );
 

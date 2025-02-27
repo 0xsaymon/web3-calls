@@ -6,6 +6,7 @@ import ERC20_ABI from "./abi/ERC20_TokenSale.ts";
  * @param {ethers.ContractRunner} runner
  * @param {string} tokenAddress
  * @param {string} spender
+ * @returns {Promise<[string | null, Error | null]>} - array with call result at 0 index and error at 1 index
  */
 export async function approve(
 	runner: ethers.ContractRunner,
