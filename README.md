@@ -4,6 +4,10 @@
 
 Before running the application, you need to set up your environment:
 
+**Node.js**:
+- [node.js](https://nodejs.org/en/download) v22 or higher.
+- optional you can use version manager for node like [nvm](https://github.com/nvm-sh/nvm) or [fnm](https://github.com/Schniz/fnm).
+
 **Create a local environment file**:
 
 - Copy the `.env.example` file and rename it to `.env.local`
