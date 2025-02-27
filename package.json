@@ -1,0 +1,21 @@
+{
+  "name": "web3-calls",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "node --env-file=.env.local --experimental-strip-types ./src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ethers": "^6.13.5"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@tsconfig/node20": "^20.1.4",
+    "@types/node": "^22.13.5"
+  }
+}
